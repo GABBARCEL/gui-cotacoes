@@ -21,7 +21,6 @@ BTC = get.BTC()
 janela = Tk()
 janela.title("Cotações")
 janela.geometry("300x150")
-janela.iconbitmap("C:/Users/GABRIEL/.vscode/Principais/projetos/COTAÇÃO/economico.ico")
 
 lbl_titulo = Label(janela, text="Cotação em tempo real", font=('Arial', 14))
 lbl_titulo.pack(pady=10)
@@ -40,5 +39,6 @@ lbl_hora.pack()
 
 lbl_atualizar = Button(janela, text="ATUALIZAR", font=("Arial", 10), command=atualizar)
 lbl_atualizar.pack()
+
 
 janela.mainloop()
